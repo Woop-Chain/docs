@@ -1,5 +1,7 @@
 # Table of contents
 
+* [WoopChain](README.md)
+
 ## Quick Start
 
 * [Whats is WoopChain](docs/woop/overview.md)
@@ -62,6 +64,3 @@
 * [Gas FAQ](docs/woop/faq/Gas.md)
 * [Smart Contracts FAQ](docs/woop/faq/Contracts.md)
 * [Tokens FAQ](docs/woop/faq/Tokens.md)
-
-
-
