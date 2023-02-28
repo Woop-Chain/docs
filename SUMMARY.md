@@ -4,63 +4,37 @@
 
 ## Quick Start
 
-* [Whats is WoopChain](docs/woop/overview.md)
-* [Overview](docs/woop/architecture/overview.md)
-* [Local Setup](docs/woop/get-started/set-up-ibft-locally.md)
-* [Cloud Setup](docs/woop/get-started/set-up-ibft-on-the-cloud.md)
+* [Whats is WoopChain](docs/woop/index.md) 
+* [Install](docs/woop/get-started/install/index.md) 
+* [Start Node](docs/woop/get-started/start-node.md) 
+* [How To](docs/woop/how-to/index.md)
+* [Genesis File](docs/woop/concepts/genesis-file.md)
 
 ## Consensus
 
-* [Proof of Authority (PoA)](docs/woop/consensus/poa.md)
-* [Proof of Stake](docs/woop/consensus/pos-concepts.md)
-* [Set up and use Proof of Stake (PoS)](docs/woop/consensus/pos-stake-unstake.md)
-* [Migration from PoA to PoS](docs/woop/consensus/migration-to-pos.md)
-* [BLS](docs/woop/consensus/bls.md)
+* [Proof of Authority (PoA)](docs/woop/concepts/poa.md) 
+* [QBFT](docs/woop/how-to/configure/consensus/qbft.md)
+* [Validators](docs/woop/how-to/configure/validators.md)
+* [Bootnodes](docs/woop/how-to/configure/bootnodes.md)
 
-## Modules
+## Transactions
 
-* [Blockchain](docs/woop/architecture/modules/blockchain.md)
-* [Minimal](docs/woop/architecture/modules/minimal.md)
-* [Networking](docs/woop/architecture/modules/networking.md)
-* [State](docs/woop/architecture/modules/state.md)
-* [TxPool](docs/woop/architecture/modules/txpool.md)
-* [JSON RPC](docs/woop/architecture/modules/json-rpc.md)
-* [Consensus](docs/woop/architecture/modules/consensus.md)
-* [Storage](docs/woop/architecture/modules/storage.md)
-* [Types](docs/woop/architecture/modules/types.md)
-* [Syncer](docs/woop/architecture/modules/syncer.md)
-* [Sealer](docs/woop/architecture/modules/sealer.md)
-* [Other Modules](docs/woop/architecture/modules/other-modules.md)
-
-## Configuration
-
-* [Server configuration file](docs/woop/configuration/sample-config.md)
-* [Manage private keys](docs/woop/configuration/manage-private-keys.md)
-* [Prometheus metrics](docs/woop/configuration/prometheus-metrics.md)
-* [Set up AWS SSM (Systems Manager)](docs/woop/configuration/secret-managers/set-up-aws-ssm.md)
-* [Set up GCP Secrets Manager](docs/woop/configuration/secret-managers/set-up-gcp-secrets-manager.md)
-* [Set up Hashicorp Vault](docs/woop/configuration/secret-managers/set-up-hashicorp-vault.md)
+* [Transaction pool](docs/woop/concepts/transactions/pool.md)
+* [Transaction types](docs/woop/concepts/transactions/types.md)
+* [Transaction Validation](docs/woop/concepts/transactions/validation.md)
 
 ## Operate a node
 
-* [Installation](docs/woop/get-started/installation.md)
-* [CLI Commands](docs/woop/get-started/cli-commands.md)
-* [Query JSON RPC endpoints](docs/woop/working-with-node/query-json-rpc.md)
-* [Query operator information](docs/woop/working-with-node/query-operator-info.md)
-* [Backup/restore node instance](docs/woop/working-with-node/backup-restore.md)
-* [Validator Hosting](docs/woop/validator-hosting.md)
+* [Data storage formats](docs/woop/concepts/data-storage-formats.md)
+* [Events and logs](docs/woop/concepts/events-and-logs.md)
+* [Backup/restore node instance](docs/woop/how-to/backup.md)
+* [Add and remove validators without voting](docs/woop/how-to/configure/consensus/add-validators-without-voting.md)
 
 ## JSON RPC Commands
 
-* [Ethereum](docs/woop/api/json-rpc-eth.md)
-* [Net](docs/woop/api/json-rpc-net.md)
-* [Web3](docs/woop/api/json-rpc-web3.md)
-* [TxPool](docs/woop/api/json-rpc-txpool.md)
+* [Access Logs](docs/woop/how-to/use-woop-api/access-logs.md) 
+* [Authenticate](docs/woop/how-to/use-woop-api/authenticate.md) 
+* [Graphql](docs/woop/how-to/use-woop-api/graphql.md)
+* [JSON RPC](docs/woop/how-to/use-woop-api/json-rpc.md)
+* [RPC Pub/Sub](docs/woop/how-to/use-woop-api/rpc-pubsub.md)
 
-## FAQs
-
-* [Troubleshooting](docs/woop/troubleshooting.md)
-* [Validators FAQ](docs/woop/faq/Validators.md)
-* [Gas FAQ](docs/woop/faq/Gas.md)
-* [Smart Contracts FAQ](docs/woop/faq/Contracts.md)
-* [Tokens FAQ](docs/woop/faq/Tokens.md)
